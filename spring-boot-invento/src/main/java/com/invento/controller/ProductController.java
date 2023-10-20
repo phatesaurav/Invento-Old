@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.invento.entity.Product;
@@ -23,6 +24,7 @@ import com.invento.service.ProductServiceImpl;
 // @ResponseBody used for serialization (Java object to JSON object)
 @RestController
 @CrossOrigin(origins = "http://localhost:3000") // Cross-Origin Resource Sharing (CORS) issue
+@RequestMapping("/spring-boot-invento") // Add a base path
 public class ProductController {
 
 	@Autowired // Inject 'ProductService' in 'ProductController' using @Autowirted annotation
