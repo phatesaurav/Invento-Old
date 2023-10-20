@@ -11,10 +11,10 @@ public class SpringBootCrudExampleProductApplication extends SpringBootServletIn
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootCrudExampleProductApplication.class, args);
 	}
-	
+
 	@Override
-	  protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-	      return builder.sources(SpringBootCrudExampleProductApplication.class);
-	  }
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(SpringBootCrudExampleProductApplication.class);
+	}
 
 }
