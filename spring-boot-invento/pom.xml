@@ -11,6 +11,7 @@
 	<groupId>com.javatechie</groupId>
 	<artifactId>spring-boot-crud-example-product</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>spring-boot-crud-example-product</name>
 	<description>spring-boot-crud-example-product</description>
 	<properties>

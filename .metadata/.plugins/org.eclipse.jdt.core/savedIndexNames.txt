@@ -9,7 +9,6 @@ INDEX VERSION 1.132+D:\GitHub\Invento\.metadata\.plugins\org.eclipse.jdt.core
 3058416016.index
 4285768905.index
 3865767107.index
-2544429314.index
 2216040405.index
 4152034763.index
 812758714.index
